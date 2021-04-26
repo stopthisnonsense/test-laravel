@@ -1,3 +1,5 @@
-body {
-  display: grid;
+@supports (display: grid) {
+  body {
+    display: grid;
+  }
 }
